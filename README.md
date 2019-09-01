@@ -89,5 +89,7 @@ npm install dotenv
 ```
 
 ## Contributions
-I created the Liri Bot to make it easy and efficient for user to search through concerts, music and movies
+I created the Liri Bot to make it easy and efficient for users to search through concerts, music and movies.
+There is no operational github.io because this is a CLI App. A CLI App is a program that the user interacts entirely through the terminal. 
+
 
