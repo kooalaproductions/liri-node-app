@@ -27,13 +27,19 @@ var spotifySearch = function (userSearch) { //spotify completed and tested
 
   var spotify = new Spotify(keys.spotify);
 
+  if (!userSearch) {//default search
+    userSearch = "The Sign Ace of Base";
+  }
+
   spotify.search({
       type: 'track',
-      query: userSearch
+      query: userSearch 
     }, function (error, response) {
+      
       if (error) {
         return console.log("error present: " + error);
       }
+      
 
       console.log("\r\n\r\n\r\n");
       console.log("Artist(s): " + response.tracks.items[0].artists[0].name);
@@ -41,12 +47,10 @@ var spotifySearch = function (userSearch) { //spotify completed and tested
       console.log("Preview: " + response.tracks.items[0].preview_url);
       console.log("Album: " + response.tracks.items[0].album.name);
       console.log("\r\n\r\n\r\n");
+      
 
-
-      if (!userSearch) {
-        userSearch = "The Sign";
-      }
     }
+    
 
   );
 
