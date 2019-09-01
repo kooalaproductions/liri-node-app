@@ -11,19 +11,22 @@ For a concert search:
 ```bash
 node liri.js concert-this <artist/band name here>
 ```
+![](concertgif.gif)
 For a song search:
 ```bash
 node liri.js spotify-this-song '<song name here>'
 ```
+![](spotify.gif)
 
 For a movie search:
 ```bash
 node liri.js movie-this '<movie name here>'
 ```
+![](movie.gif)
 
 For do what is says:
 ```bash
 node liri.js do-what-it-says
 ```
-
+![](default.gif)
 
