@@ -57,6 +57,9 @@ node liri.js spotify-this-song '<song name here>'
 ```
 ![](spotify.gif)
 
+If there is no song provided it will default to The Sign by Ace of Base
+![](default-spotify.gif)
+
 For a movie search:
 ```bash
 node liri.js movie-this '<movie name here>'
