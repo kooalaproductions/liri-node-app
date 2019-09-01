@@ -1,12 +1,12 @@
 # Liri Bot
 Liri Bot will help users find concert, song and movie information. 
-##Installation
+## Installation
 Will need to run npm installations 
 ```bash
 For Spotify: npm install --save node-spotify-api
 axios: npm install axios
 ```
-##Usage
+## Usage
 For a concert search: 
 ```bash
 node liri.js concert-this <artist/band name here>
