@@ -21,3 +21,9 @@ For a movie search:
 node liri.js movie-this '<movie name here>'
 ```
 
+For do what is says:
+```bash
+node liri.js do-what-it-says
+```
+
+
