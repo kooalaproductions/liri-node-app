@@ -69,3 +69,25 @@ node liri.js do-what-it-says
 ```
 ![](default.gif)
 
+##Technologies
+Node Spotify API - will need to install api to search for song. 
+```bash
+npm install --save node-spotify-api
+```
+Axios - will need to install axios to search for concerts and movies
+```bash
+npm install axios
+```
+Moment - to format date when searching for concert
+```bash
+console.log("Date: " + moment(response.data[0].datetime).format("MM-DD-YYYY"));
+
+```
+dotenv- will grab the spotify key from the .env file 
+```bash
+npm install dotenv
+```
+
+##Contributions
+I created the Liri Bot to make it easy and efficient for user to search through concerts, music and movies
+
